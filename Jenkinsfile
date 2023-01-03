@@ -1,9 +1,9 @@
 // Declarative //
 pipeline {
     agent any
-    environment { 
-        OTEL_LOGS_EXPORTER="otlp"
-    }
+    // environment { 
+    //     OTEL_LOGS_EXPORTER="otlp"
+    // }
     stages {
         stage('Build') {
             steps {
