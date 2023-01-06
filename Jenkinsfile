@@ -1,13 +1,10 @@
 // Declarative //
 pipeline {
     agent any
-    // environment { 
-    //     OTEL_LOGS_EXPORTER="otlp"
-    // }
     stages {
         stage('Build') {
             steps {
-                // echo 'Building...'
+                echo 'Building...'
             }
         }
         stage('Test') {
